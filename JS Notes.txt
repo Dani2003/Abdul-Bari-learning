@@ -1,0 +1,8 @@
+javascript is am case sensitive language.
+datatypes in JS;
+const
+let
+var
+difference b/w let and var
+(let) has a block level scope.
+However (var) has a broad level scope.

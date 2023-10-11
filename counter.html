@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <script>
+
+            let a=0;
+             
+            
+            function count() {
+                a ++;
+                document.querySelector('h1').innerHTML = a;
+                if( a % 10 ===0 ) {
+                    alert(`count is now ${a}`);
+                }
+            }
+            document.querySelector('button').onclick = count;
+
+        
+        </script>
+    </head>
+    <body>
+        <h1>0</h1>
+        <button onclick="count()" style="display: flex;"> Counting number</button>
+    </body>
+</html>
