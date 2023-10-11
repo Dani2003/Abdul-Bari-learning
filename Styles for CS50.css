@@ -1,0 +1,122 @@
+.brian {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.brian-1 {
+    margin: 10px;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+}
+/* unvisited link */
+a:link {
+    color: rgba(0, 0, 0, 0.671);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(0, 0, 0, 0.671);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgba(0, 0, 0, 0.671);
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgba(0, 0, 0, 0.671);
+  }
+  .google-png {
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    display: flex;
+    z-index: 3;
+    height: 30px;
+    background: #fff;
+    border: 1px solid#dfe1e5;
+    border-radius: 18px;
+    box-shadow: none;
+    margin: 0 auto;
+    width: 584px;
+    margin-top: 23px;
+  }
+  .Search-button {
+    border: 1px;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .button-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .google-images {
+    display: flex;
+    justify-content: center;
+  }
+  .google-png-adv {
+    display: inline-flex;
+    font-size: medium;
+    height: 27px;
+    width: 84px;
+    margin: 19px;
+  }
+  .page-3 {
+    color: brown;
+    font-family: arial,sans-serif;
+    font-size: 28px;
+    margin: 30px 35px;
+  }
+  .ver {
+    border-bottom: 1px solid #ebebeb;
+  }
+  .page {
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    color: #333;
+    margin: 42px;
+    font-weight: 500;
+  }
+  .text-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 42px;
+    vertical-align: baseline;
+  }
+  .text {
+    width: 180px;
+    font-size: medium;
+  }
+  .box {
+  width: 380px;
+}
+  .text-adv {
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  vertical-align: middle;
+}
+  .bottom-btn {
+  background-color: #4d90fe;
+  border: 1px #3079ed;
+  color: #fff;
+}
+  .button-bottom {
+  display: flex;
+  margin-left: 470px;
+  height: 30px;
+  min-width: 120px;
+}
